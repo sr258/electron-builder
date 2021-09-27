@@ -14,7 +14,7 @@ node_modules
 out/
 /test/test-report.xml
 
-/packages/dmg-builder/vendor/
+/packages/dmg-builder/vendor/**/*.pyc
 /packages/electron-builder/README.md
 
 /scripts/jsdoc/out/

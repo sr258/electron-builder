@@ -398,7 +398,7 @@ export default class MacPackager extends PlatformPackager<MacConfiguration> {
       }
       // Leaving the appFilename as it is breaks icon lookup if it contains non
       // ASCII characters
-      const iconFileName = `${encodeURI(appFilename).replaceAll("%20", " ")}.icns`
+      const iconFileName = "icon.icns"
       appPlist.CFBundleIconFile = iconFileName
       await copyFile(icon, path.join(resourcesPath, iconFileName))
     }
