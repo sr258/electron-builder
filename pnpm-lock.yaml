@@ -236,7 +236,6 @@ importers:
       '@types/js-yaml': 4.0.3
       app-builder-lib: workspace:*
       builder-util: workspace:*
-      builder-util-runtime: workspace:*
       dmg-license: ^1.0.9
       fs-extra: ^10.0.0
       iconv-lite: ^0.6.2
@@ -245,7 +244,6 @@ importers:
     dependencies:
       app-builder-lib: link:../app-builder-lib
       builder-util: link:../builder-util
-      builder-util-runtime: link:../builder-util-runtime
       fs-extra: 10.0.0
       iconv-lite: 0.6.3
       js-yaml: 4.1.0
